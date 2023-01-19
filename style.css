@@ -1,0 +1,141 @@
+* {
+    font-family: 'Century Gothic';
+    user-select: none;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100%;
+    overflow: hidden;
+    background: linear-gradient(90deg, blue, purple);
+}
+
+#screen {
+    height: 50px;
+    max-width: 340px;
+    color: white;
+    font-size: 25px;
+    text-align: left;
+    padding-top: 60px;
+    padding-left: 20px;
+    width: 340px;
+    background-color: black;
+}
+
+#plug {
+    width: 180px;
+}
+
+.calc {
+    display: flex;
+    flex-direction: column
+}
+
+#currentOP {
+    color: #ffffffb8;
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 340px;
+    font-size: 20px;
+}
+
+.numbers {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    columns: 3;
+    flex-wrap: wrap;
+    width: 360px;
+}
+
+#delete {
+    width: 90px;
+    background-color: rgb(87, 87, 87);
+    outline: rgb(212, 212, 212);
+    color: #f3f2f2;
+}
+
+#delete:hover {
+    color: rgb(55, 55, 55);
+}
+
+.number {
+    background-color: #f3f2f2;
+    padding-top: 30px;
+    height: 60px;
+    cursor: pointer;
+    width: 90px;
+    outline: solid 1px rgb(212, 212, 212);
+}
+
+.op {
+    background-color: #f3f2f2;
+    padding-top: 30px;
+    height: 60px;
+    cursor: pointer;
+    width: 90px;
+    outline: solid 1px rgb(212, 212, 212); 
+}
+
+.op:hover {
+    background-color: #d1d1d1;
+    transition: 0.3s ease-in-out;
+}
+
+.number:hover {
+    background-color: #d1d1d1;
+    transition: 0.3s ease-in-out;
+}
+
+#equal {
+    height: 60px;
+    padding-top: 30px;
+    width: 90px;
+    color: white;
+    outline: solid 1px rgb(0, 136, 255);
+    background-color: rgb(0, 136, 255);
+}
+
+#ce {
+    height: 60px;
+    padding-top: 30px;
+    width: 90px;
+    color: white;
+    outline: solid 1px rgb(87, 87, 87);
+    background-color: rgb(65, 65, 65);
+}
+
+#ac {
+    height: 60px;
+    padding-top: 30px;
+    width: 90px;
+    color: white;
+    outline: solid 1px rgb(180, 3, 3);
+    background-color: rgb(169, 0, 0);
+}
+
+.numbers > a {
+    color: black;
+    text-decoration: none;
+}
+
+#signChanger{
+    width: 180px;
+}
+
+#ac:hover {
+    background-color: rgb(210, 0, 0);
+    transition: 0.3s ease-in-out;
+}
+
+#delete:hover {
+    background-color: rgb(180, 180, 180);
+    transition: 0.3s ease-in-out;
+}
+
+
+#equal:hover {
+    background-color: rgb(1, 117, 218);
+    transition: 0.3s ease-in-out;
+}
