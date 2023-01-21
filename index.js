@@ -1,74 +1,11 @@
-// let cards = ['A', '2', '3', '4', '5', '6', '7', '8', '9', '10', 'J', 'Q', 'K']
-
-
-// function shuffle(array) {
-//    let currentIndex = array.length;
-   
-//    // let randomIndex = Math.floor(Math.random * array.length);
-   
-//    while(currentIndex != 0){
-//       let randomIndex = Math.floor(Math.random() * array.length);
-//       currentIndex--;
-//       console.log(Math.floor(Math.random() * array.length))
-
-//       let temp = array[currentIndex];
-//       array[currentIndex] = array[randomIndex];
-//       array[randomIndex] = temp;
-//    }
-
-//    return array;
-// }
-// document.getElementById("o").innerHTML = shuffle(cards);
-
-// let count = document.getElementById("count").innerText;
-// count = Number(count);
-// let increase = document.getElementById("increment");
-// let save = document.getElementById('save')
-// let previous = document.getElementById("previous")
-
-// increase.onclick = function(){
-//    count++;
-//    document.getElementById("count").innerText = count;
-//    console.log("New person added!")
-// }
-
-// save.onclick = function(){
-//    console.log(count)
-//    let countStr = count + ' - '
-//    previous.innerHTML += countStr;
-//    count = 0;
-//    document.getElementById("count").innerText = count;
-// }
-
-// let countdown = 5;
 
 function wait(ms){
-    var d = new Date();
-    var d2 = null;
-    do { d2 = new Date(); }
-    while(d2-d < ms);
+   var d = new Date();
+   var d2 = null;
+   do { d2 = new Date(); }
+   while(d2-d < ms);
 }
 
-// while(countdown != 0){
-//    wait(1000);
-//    console.log(countdown);
-//    countdown--;
-// }
-
-// let welcome = document.getElementById("welcome");
-// let name = "Ibereola Oludare."
-// // let greeting = "Welcome back, "
-
-// welcome.innerHTML = greeting + name ;
-
-// welcome.innerHTML = welcome.innerHTML + "👋"
-
-// let purchase = document.getElementById('purchase');
-// let error = document.getElementById('error')
-
-// purchase.onclick = function(){
-//    error.textContent = "Something went wrong, try again later."
-// }
 
 let btn1 = document.getElementById('1');
 let btn2 = document.getElementById('2');
